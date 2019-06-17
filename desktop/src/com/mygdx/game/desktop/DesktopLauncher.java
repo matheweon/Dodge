@@ -14,7 +14,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new DodgeGame(), config);
 		//sets the attributes of the screen:  FPS and Dimensions
-		config.foregroundFPS = 60;
+		config.foregroundFPS = 30;
 		config.title = DodgeGame.TITLE;
 		config.width = DodgeGame.WIDTH;
 		config.height = DodgeGame.HEIGHT;
